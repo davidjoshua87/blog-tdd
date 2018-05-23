@@ -26,7 +26,6 @@ module.exports = {
       })
       .populate('author')
       .then(data => {
-        console.log(data, 'coba');
         return res.status(200).json({
           message: `succeed get article by id`,
           data

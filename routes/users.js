@@ -1,5 +1,5 @@
 const express = require('express');
-const user = express.Router();
+const user    = express.Router();
 const {
   remove,
   signIn,
